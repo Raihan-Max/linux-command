@@ -1,4 +1,4 @@
-to give the write permission in a file:
+to give the write permission to a file:
 
 "chmod 777 foldername" will give read, write, and execute permissions for everyone.
 "chmod 700 foldername" will give read, write, and execute permissions for the user only.
