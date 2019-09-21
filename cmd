@@ -1,3 +1,4 @@
+
 To give the write permission to a file(if the file is only "readOnly" mood):
 "chmod 777 foldername/fileName" will give read, write, and execute permissions for everyone.
 "chmod 700 foldername/fileName" will give read, write, and execute permissions for the user only.
