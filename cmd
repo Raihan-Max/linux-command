@@ -14,3 +14,8 @@ To qiut with save : write ":wq" , then press enter
 Using "nano":
 To quit without saving: write "ctrl+x" , then press enter
 To qiut with save : write "ctrl+o" , then press "enter", then "ctrl+x"
+
+
+
+How to move a file:
+mv fileName ../location
