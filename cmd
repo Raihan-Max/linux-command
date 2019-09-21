@@ -1,3 +1,13 @@
+"cd":
+"cd" --> to go into a folder
+
+"ls":
+"ls" --> to see all files in this folder
+
+"cd  ..":
+"cd  .." --> to go to the previous folder
+
+
 
 To give the write permission to a file(if the file is only "readOnly" mood):
 "chmod 777 foldername/fileName" will give read, write, and execute permissions for everyone.
@@ -18,4 +28,25 @@ To qiut with save : write "ctrl+o" , then press "enter", then "ctrl+x"
 
 
 How to move a file:
-mv fileName ../location
+mv fileName ../location/
+
+How to copy a file:
+(in the other/absolute path): cp -r  fileName  ../location/ 
+(in the same path)          : cp -r  fileName  location/ 
+
+How to make a new directory:
+mkdir folderName
+
+How to delete a directory/folder:
+rm -rf foldername
+Delete all files in a folder:
+rm -rf *
+There are two command to delete a folder in Linux:
+"rmdir" command – Deletes the specified empty directories and folders in Linux.
+"rm" command – Delete the file including sub-directories. You can delete non-empty directories with rmdir command in Linux.
+
+
+
+
+
+
