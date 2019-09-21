@@ -61,4 +61,40 @@ How to zip up an entire directory including all sub-directories:
       zip -r picpic(new_fileName) *
 
 
+Connection Stablish with remote server:
+      1)Local PC command prompt -->   "ssh -f root@RemoteServerIPAddress -L portNumber(2000):localhost:portNumber(2000) -N"
+      2)remote server using putty --> 1) "jupyter notebook --allow-root --no-browser --port=portNumber(2000)" (if disconnented no program run there)
+                                      2) "nohup jupyter notebook --allow-root --no-browser --port=portNumber(2000)" & (if disconnentd , the command 
+                                      will run in server)
+      3)It will give a link, copy the link  and paste it into the browser in my local PC:
+                  (For example:  ) or, 
+                  "http://IP:PortNumber/?token=TokenNumber" (for accessing the remote server)
+                  Or,
+                  "localhost:1920" (for accessing the remote server)
+                  
+                  
+                  
+Transfer file from local pc(windows) to remote server(linux/centos): ("~" means home)
+                  J:\Thesis\jupyter notebook work\NSL-KDD\my_paper_work_SVM>scp KDDTrain+.csv root@RemoteIP:~/location
+                  J:\Thesis\jupyter notebook work\NSL-KDD\my_paper_work_SVM>scp KDDTest+.csv root@103.RemoteIP:~/location
+                  J:\Thesis\jupyter notebook work\NSL-KDD\my_paper_work_SVM>scp KDDTest-21.csv root@RemoteIP:~/location
+download file from remote server(linux/centos) to local pc(windows):
+                  command prompt:
+                  1) connection establish ---->  "ssh -f root@RemoteServerIPAddress -L portNumber(2000):localhost:portNumber(2000) -N"
+                  remote--> using putty:
+                  2)scp an.zip rai@LocalIP(ipconfig command for windows):/Users/Name/Downloads
+                  
 
+
+
+
+
+
+
+                                
+      
+                                
+                     
+      
+      
+      
