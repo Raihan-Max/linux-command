@@ -19,8 +19,9 @@ To give the write permission to a file(if the file is only "readOnly" mood):
 To do some edit work:
 using "vi":
 To start editing: press "i"
-      To quit without saving: write ":q!" , then press enter
-      To qiut with save : write ":wq" , then press enter
+      ":q" --> when we do not edit anything in a file then can exit by ":q"
+      ":q!" --> If we edit anything in a file then, to quit without saving: write ":q!" , then press enter
+      ":wq" --> If we edit anything in a file and want to qiut with save : write ":wq" , then press enter
 Using "nano":
       To quit without saving: write "ctrl+x" , then press enter
       To qiut with save : write "ctrl+o" , then press "enter", then "ctrl+x"
