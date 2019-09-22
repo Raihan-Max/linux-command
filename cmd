@@ -4,8 +4,8 @@
 "ls":
       "ls" --> to see all files in this folder
 
-"cd  ..":
-      "cd  .." --> to go to the previous folder
+" cd  ..  ":
+      " cd  ..  " --> to go to the previous folder
 
 
 
