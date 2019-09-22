@@ -83,7 +83,7 @@ download file from remote server(linux/centos) to local pc(windows):
                   command prompt(windows):
                   1) connection establish ---->  "ssh -f root@RemoteServerIPAddress -L portNumber(2000):localhost:portNumber(2000) -N"
                   remote--> using putty:
-                  2)scp source(from) Destination(TO) : --> scp {userName}@{RemoteIP}:~/{foldeName}/{fileName} C:/Users/{UserName}/Downloads/
+                  2)scp source(from) Destination(TO) : --> scp {userName}@{RemoteIP}:~/{folderName}/{fileName}  C:/Users/{UserName}/Downloads/
                   
 
 
