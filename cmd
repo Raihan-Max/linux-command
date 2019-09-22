@@ -58,7 +58,7 @@ How to zip all files in current directory?:
   
 How to zip up an entire directory including all sub-directories:
       zip -r [zip file name] *
-      zip -r picpic(new_fileName) *
+      zip -r picpic(OR,an)(new_fileName) *
 
 
 Connection Stablish with remote server:
