@@ -90,8 +90,9 @@ download file from remote server(linux/centos) to local pc(windows):
 
 
 
-
-
+To kill a process by its name:
+                  example 1:   pkill -9 jupyter
+                  example 2:   pkill -9 nohub
 
 
                                 
