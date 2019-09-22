@@ -75,14 +75,15 @@ Connection Stablish with remote server:
                   
                   
 Transfer file from local pc(windows) to remote server(linux/centos): ("~" means home)
+                        " scp source(from) Destination(To) "
                   J:\Thesis\jupyter notebook work\NSL-KDD\my_paper_work_SVM>scp KDDTrain+.csv root@RemoteIP:~/location
-                  J:\Thesis\jupyter notebook work\NSL-KDD\my_paper_work_SVM>scp KDDTest+.csv root@103.RemoteIP:~/location
+                  J:\Thesis\jupyter notebook work\NSL-KDD\my_paper_work_SVM>scp KDDTest+.csv root@RemoteIP:~/location
                   J:\Thesis\jupyter notebook work\NSL-KDD\my_paper_work_SVM>scp KDDTest-21.csv root@RemoteIP:~/location
 download file from remote server(linux/centos) to local pc(windows):
-                  command prompt:
+                  command prompt(windows):
                   1) connection establish ---->  "ssh -f root@RemoteServerIPAddress -L portNumber(2000):localhost:portNumber(2000) -N"
                   remote--> using putty:
-                  2)scp an.zip rai@LocalIP(ipconfig command for windows):/Users/Name/Downloads
+                  2)scp source(from) Destination(TO) : --> scp {userName}@{RemoteIP}:~/{foldeName}/{fileName} C:/Users/{UserName}/Downloads/
                   
 
 
