@@ -88,7 +88,9 @@ download file from remote server(linux/centos) to local pc(windows):
                   2)scp source(from) Destination(TO) : --> scp {userName}@{RemoteIP}:~/{folderName}/{fileName}  C:/Users/{UserName}/Downloads/
                   
 
-
+to check the running process by Name:
+                  ps aux | grep -i firefox
+                  ps aux | grep -i jupyter
 
 To kill a process by its name:
                   example 1:   pkill -9 jupyter
